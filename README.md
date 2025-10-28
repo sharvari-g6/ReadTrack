@@ -1,1 +1,1 @@
-# ReadTrack
+ReadTrack is an application with a secure login and registration system, where users are authenticated and redirected to a personalized  dashboard. The dashboard allows users to maintain and manage a list of books they have read. All user and book data is securely  stored in a MySQL database, ensuring efficient data management and retrieval.
