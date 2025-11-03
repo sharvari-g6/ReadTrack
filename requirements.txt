@@ -1,5 +1,7 @@
-flask_wtf
-wtforms
-wtforms.validators
+Flask
+Flask-WTF
+WTForms
 bcrypt
-flash_mysqldb
+Flask-MySQLdb
+python-dotenv
+google-generativeai

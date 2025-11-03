@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Chatbot</title>
+</head>
+<body>
+    <h2>📚 Library Assistant Chatbot</h2>
+
+    <form method="POST">
+        <input type="text" name="query" placeholder="Ask about any book..." required>
+        <button type="submit">Ask</button>
+    </form>
+
+    {% if response %}
+        <h3>Response:</h3>
+        <p>{{ response }}</p>
+    {% endif %}
+
+    <br>
+    <a href="{{ url_for('dashboard') }}">⬅ Back to Dashboard</a>
+</body>
+</html>
